@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.mdiv {
+  width: 100%;
+  height: auto;
+}
+.innerdiv {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #3a3a3a;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: #2f2f2f;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed #bfbfbf;
+}
+p {
+  overflow: hidden;
+  max-height: 96px;
+  max-width: 800px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.direction {
+  gap: 24px;
+  width: 50%;
+  float: left;
+  padding-right: 30px;
+  padding-top: 30px;
+  letter-spacing: 1px;
+}
+.ingredient {
+  gap: 24px;
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+  padding-top: 30px;
+  letter-spacing: 1px;
+}
+button {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2f2f2f;
+  box-sizing: border-box;
+  line-height: 24px;
+  height: 50px;
+  width: 384px;
+  background-color: #f5ce35;
+  border-color: #f5ce35;
+  font-weight: 700;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 30px;
+}
+.img1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.br {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding-bottom: 0%;
+}
+
+.p1 {
+  display: inline;
+  bottom: 30px;
+  padding-top: 0%;
+  position: absolute;
+  display: inline;
+  font-size: 12px;
+  font-weight: 700;
+  z-index: 2;
+  bottom: 15px;
+  right: 160px;
+}
+
+.c {
+  position: absolute;
+  display: inline;
+  font-size: 12px;
+  font-weight: 600;
+  z-index: 2;
+  bottom: 15px;
+  right: 100px;
+}
